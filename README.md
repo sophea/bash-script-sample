@@ -13,3 +13,7 @@ $? - The exit status of the last command executed.|
 $$ - The process ID of the current shell. For shell scripts, this is the process ID under which they are executing.|
 $! - The process number of the last background command.|
 ````
+# Test it is root user or not
+````
+test $(id -u) -eq 0  && echo "Root user can run this script." || echo "Use sudo or su to become a root user."
+````
