@@ -76,8 +76,8 @@ if [[ -f $tmpResultFile ]]; then
  bodyText="$message <br/><br/>"
  
  ##Email notification
-from="dba@UAT.jtrustroyal.com"
-        to="youn.sinhuy@jtrustsystem.co.jp,sinhuy.youn@jtrustroyal.com"
+from="dba@UAT.xxxx.com"
+        to="sopheamak@gmail.com"
         subject="OS CRITICAIL FILE CHANGES IN POWERCARD DB"
         message="${bodyText}"
         (
